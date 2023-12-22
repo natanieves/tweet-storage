@@ -9,16 +9,19 @@
     <main> 
         <h1>Local Storage</h1>
     </main>
-   <section class="row">
-        <form>
+   <section class="row" id="container">
+        <form id="form">
             <label for="tweet">Tweet:</label>
             <textarea name="tweet" id="tweet" rows="3"></textarea>
             <button type="submit">AGREGAR</button>
         </form>
-        <section> 
+        <section class="section-tweets"> 
             <h2>Mis Tweets</h2>
-            <section></section>
+            <section id="list-tweets"></section>
         </section>
    </section>
+
+   <script src="/js/app.js"></script>
 </body>
+
 </html>
